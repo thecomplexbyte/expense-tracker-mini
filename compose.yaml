@@ -7,3 +7,6 @@ services:
       - "8000:8000"
     volumes:
       - .:/app
+    user: "${UID:-1000}:${GID:-1000}"
+    environment:
+      APP_ENV: dev
