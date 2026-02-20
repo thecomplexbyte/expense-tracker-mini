@@ -9,6 +9,7 @@
         "php": "^8.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "pentatrion/vite-bundle": "^8.2",
         "symfony/console": "*",
         "symfony/dotenv": "*",
         "symfony/flex": "*",
@@ -60,7 +61,7 @@
     },
     "extra": {
         "symfony": {
-            "allow-contrib": false,
+            "allow-contrib": true,
             "require": "8.0.*"
         }
     }

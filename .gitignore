@@ -9,3 +9,15 @@
 ###< symfony/framework-bundle ###
 
 /.idea/
+
+###> pentatrion/vite-bundle ###
+/public/build/
+###< pentatrion/vite-bundle ###
+
+###> node/pnpm ###
+/node_modules/
+/.pnpm-store/
+/pnpm-lock.yaml
+###< node/pnpm ###
+
+/.env.compose.local
